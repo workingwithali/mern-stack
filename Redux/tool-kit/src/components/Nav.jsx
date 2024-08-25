@@ -1,9 +1,10 @@
+import { useSelector, useDispatch } from 'react-redux'
 
-
-const Nav = ({counter}) => {
+const Nav = () => {
+  const count = useSelector((state) => state.counter.value)
   return (
     <div>
-      i am navbar {counter}
+      i am navbar {count}
     </div>
   )
 }
