@@ -1,8 +1,12 @@
 // array
 // forEach map filter indexof find
 var arr = [2,3,4,5]
-arr.forEach((var)=> {
-    return var +" hello"
+arr.forEach((item)=> {
+    return (item +" hello")
     
 })
-print(arr)
+console.log(arr)
+var arr = [2, 3, 4, 5];
+arr.forEach((item) => {
+    console.log(item + " hello");
+});
