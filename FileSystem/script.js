@@ -4,11 +4,21 @@ const fs = require('fs');
 //     if (err) console.log("err");
 //     else console.log("done");
 // })
+
+
 // fs.appendFile('ali.txt','next add file',function(err){
 //     if (err) console.log("err");
 //     else console.log("done");
 // })
-fs.rename('ali.txt','hey.text',function(err){
-    if (err) console.log("err");
-    else console.log("done");
-})
+
+
+// fs.rename('hey.text','hey.txt',function(err){
+//     if (err) console.log("err");
+//     else console.log("done");
+// })
+
+
+// fs.copyFile('hey.txt','./copy/copy.txt',function(err){
+//     if (err) console.log("err");
+//     else console.log("done");
+// })
