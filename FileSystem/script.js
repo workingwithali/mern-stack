@@ -24,7 +24,13 @@ const fs = require('fs');
 // })
 
 
-fs.unlink("hey.txt",function(err){
-    if (err)console.error("err");
+// fs.unlink("hey.txt",function(err){
+//     if (err)console.error("err");
+//     else console.log("remave");
+// })
+
+
+fs.rmdir("./copy",function(err){
+    if (err)console.error(err);
     else console.log("remave");
 })
