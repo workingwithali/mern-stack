@@ -24,7 +24,7 @@ const fs = require('fs');
 // })
 
 
-fs.unlink("hey.txt",(err)=>{
-    if (err)console.log("err")
-    else console.log("remave")
+fs.unlink("hey.txt",function(err){
+    if (err)console.error("err");
+    else console.log("remave");
 })
