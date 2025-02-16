@@ -1,3 +1,4 @@
+use('crudDb')
 db.course.insertOne({
     'name':'python',
     'price':100,
