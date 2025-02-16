@@ -1,2 +1,2 @@
 use('crudDb')
-db.
+db.course.updateOne({price:0},{$set:{price:100}})

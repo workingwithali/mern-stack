@@ -1,1 +1,7 @@
-use('')
+use('crudDb')
+let a = db.course.find({price:100})
+console.log(a)
+let b = db.course.find({price:100})
+console.log(b.count())
+let c = db.course.find({price:100})
+console.log(c.toArray())
