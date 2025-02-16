@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 import express from 'express'
-await mongoose.connect('mongodb://localhost:27017/')
+let conn = await mongoose.connect('mongodb://localhost:27017/todo')
 // const express = require('express')
 const app = express()
 const port = 3000
