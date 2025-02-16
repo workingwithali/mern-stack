@@ -4,3 +4,7 @@ db.course.insertOne({
     'price':100,
     'time':'6month'
 })
+db.course.insertMany([{
+    
+}]
+})
